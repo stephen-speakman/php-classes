@@ -220,8 +220,8 @@
 					$posx		= (23-($long_text/2));
 					$y2 		= ($y1+4);
 				
-				if(!in_array($values[$i], $needles)
-				 {
+				if(!in_array($values[$i], $needles))
+				{
 					imagettftext($this->graph, 8, 0, $posx, $y2, $black, $this->graphFont, $values[$i]);
 				}
 			}
